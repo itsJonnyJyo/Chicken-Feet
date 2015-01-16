@@ -16,6 +16,6 @@ public:
 	bool removeBone(int pos, Bone*& aBone);
 	void print() const;
 private:
-	vector<Bone*> bones;
+	vector<Bone*> hand;
 };
 #endif
